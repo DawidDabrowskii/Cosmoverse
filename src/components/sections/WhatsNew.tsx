@@ -9,7 +9,7 @@ const WhatsNew = () => {
   return (
     <section className={`${styles.paddings} relative z-10`}>
       <motion.div
-        variants={staggerContainer(0.1, 0.2)}
+        variants={staggerContainer()}
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
